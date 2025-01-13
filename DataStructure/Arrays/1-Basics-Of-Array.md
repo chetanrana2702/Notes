@@ -2,7 +2,7 @@ An <b style="color:blue">array</b> is a fundamental data structure used for stor
 
 
 ### Key Characteristics
-- <code style="color:blue">Homogeneity:</code> All elements are of the same data type.
+- <b style="color:blue">Homogeneity:</b> All elements are of the same data type.
 - <b style="color:blue">Contiguous Memory:</b> Elements are stored in adjacent memory locations for quick access.
 - <b style="color:blue">Fixed Size:</b> Arrays are generally static in size, although dynamic arrays exist in modern languages.
 - <b style="color:blue">Indexing:</b> Usually zero-based, though some languages use one-based indexing.
