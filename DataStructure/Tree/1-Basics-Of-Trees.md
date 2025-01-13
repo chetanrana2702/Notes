@@ -1,4 +1,4 @@
-The Tree Data Structure is a widely used hierarchical data structure in computer science, representing relationships between data elements in a parent-child manner. Below is a detailed overview of the tree data structure:
+The Tree Data Structure is a widely used hierarchical data structure in computer science, representing relationships between data elements in a parent-child manner.
 
 ---
 
