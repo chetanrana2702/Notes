@@ -58,3 +58,17 @@ Dynamic arrays are ideal for:
 - Dynamic data structures like stacks, queues, and deques.
 
 
+### Implementation
+Dynamic arrays are implemented differently in various programming languages:
+
+#### C++: std::vector
+- Automatically resizes as elements are added.
+- Provides methods like push_back(), pop_back(), resize().
+
+#### Java: ArrayList
+- Backed by an array that grows as needed.
+- Methods like add(), remove(), and size() handle operations.
+
+#### Python: List
+- Python’s list is dynamic and handles resizing internally.
+- Operations like append(), extend(), and pop() manage elements.
