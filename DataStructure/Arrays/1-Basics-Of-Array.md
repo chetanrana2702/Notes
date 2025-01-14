@@ -1,27 +1,29 @@
+### <b style="color:blue">Basics Of an Array</b>
+
 An <b style="color:blue">array</b> is a fundamental data structure used for storing a <b style="color:blue">sequence</b> of elements that can be accessed via an <b style="color:blue">index</b>.
 
 
-### Key Characteristics
+### <b style="color:darkorange">Key Characteristics</b>
 - <b style="color:blue">Homogeneity:</b> All elements are of the same data type.
 - <b style="color:blue">Contiguous Memory:</b> Elements are stored in adjacent memory locations for quick access.
 - <b style="color:blue">Fixed Size:</b> Arrays are generally static in size, although dynamic arrays exist in modern languages.
 - <b style="color:blue">Indexing:</b> Usually zero-based, though some languages use one-based indexing.
 
-### More Key Characteristics
+### <b style="color:darkorange">More Key Characteristics</b>
 
-- Each element can be accessed directly using its index <b style="color:chocolate">(position number, usually starting from 0)</b>
-- Arrays have a fixed size in most programming languages <b style="color:chocolate">(though some languages like Python, Ruby and JavaScript use dynamic arrays)</b>
+- Each element can be accessed directly using its index <b style="color:blue">(position number, usually starting from 0)</b>
+- Arrays have a fixed size in most programming languages <b style="color:blue">(though some languages like Python, Ruby and JavaScript use dynamic arrays)</b>
 
 
-### Arrays are incredibly useful for many tasks like:
+### <b style="color:darkorange">Arrays are incredibly useful for many tasks like:</b>
 
-- Storing a collection of similar items <b style="color:chocolate">(like test scores or names)</b>
-- Implementing other data structures <b style="color:chocolate">(like stacks and queues)</b>
+- Storing a collection of similar items <b style="color:blue">(Like test scores or names)</b>
+- Implementing other data structures <b style="color:blue">(Like stacks and queues)</b>
 - Processing data in a sequential manner
 - Performing operations on multiple values efficiently
 
 
-### Time Complexity of Basic Operations
+### <b style="color:darkorange">Time Complexity of Basic Operations</b>
 
 - <b style="color:blue">Access:</b> <i style="color:chocolate">O(1)</i>
 - <b style="color:blue">Search:</b> <i style="color:chocolate">O(1)</i>, <i style="color:chocolate">O(n)</i> assuming unsorted array
@@ -29,7 +31,7 @@ An <b style="color:blue">array</b> is a fundamental data structure used for stor
 - <b style="color:blue">Deletion:</b> <i style="color:chocolate">O(1)</i> for the end, <i style="color:chocolate">O(n)</i> for beginning/middle
 - <b style="color:blue">Append:</b> <i style="color:chocolate">O(1)</i> amortized, <i style="color:chocolate">O(n)</i> during resizing
 
-### Code Example
+### <b style="color:darkorange">Code Example</b>
 
 ```ruby
 arr_with_fixed_size = Array.new(5)
@@ -58,7 +60,7 @@ float_arr = [1.3, 5.1, 4.2]
 puts float_arr
 ```
 
-### Types Of An Arrays
+### <b style="color:darkorange">Types Of An Arrays</b>
 
 - <b style="color:blue">Single Dimensional Array: </b> These are the most common type of arrays where elements are stored in a linear order.
 
@@ -76,12 +78,12 @@ puts float_arr
     ]
     ```
 
-### Advantages of Arrays
+### <b style="color:darkorange">Advantages of Arrays</b>
 
 - <b style="color:blue">Efficient Access:</b> Accessing an element by its index is fast and has constant time complexity, O(1).
 - <b style="color:blue">Memory Management:</b> Arrays have a fixed size, which makes memory management straightforward and predictable.
 
-### More Operation
+### <b style="color:darkorange">More Operation</b>
 
 - <b style="color:blue">Passing Arrays To Methods: </b> Arrays can be passed to methods for processing, such as calculating the sum of its elements.
 

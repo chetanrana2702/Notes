@@ -1,4 +1,4 @@
-<b style="color:blue">Associative Array</b>
+### <b style="color:blue">Associative Array</b>
 
 - It is a data structure that stores data in key-value pairs. 
 - An associative array, also known as a map, dictionary, or hash table
@@ -6,7 +6,7 @@
 - Its an abstract data type that enables key-based access to its elements and offers dynamic resizing and fast retrieval.
 
 
-### Key Characteristics:
+### <b style="color:darkorange">Key Characteristics:</b>
 1. <b style="color:blue">Key-Value Pairs:</b> Each element in the array has a key and a value.
 
     - Key: A unique identifier used to access the associated value.
@@ -18,7 +18,7 @@
 
 4. <b style="color:blue">Dynamic Sizing:</b> Many implementations dynamically resize the array as new key-value pairs are added.
 
-### Common Implementations
+### <b style="color:darkorange">Common Implementations</b>
 - <b style="color:blue">Hash Table:</b> Efficiency can degrade due to hash collisions.
 
     - Average Case O(1)
@@ -38,45 +38,45 @@
 
     - Average and Worst Case O(n)
 
-### Example
+### <b style="color:darkorange">Example</b>
 
 ```ruby
-    regular_array = ["apple", "banana", "cherry"]
-    
-    # using rocket sign (=>)
-    associative_array = {
-        "name" => "krishna",
-        "age" => 30,
-        "city" => "Bengaluru"
-    }
-    
-    # Accessing values using keys as string
-    puts associative_array["name"]
-    puts associative_array["city"]
-    puts associative_array["age"]
+regular_array = ["apple", "banana", "cherry"]
 
-    # using (:) semicolon
-    associative_array = {
-        "name": "krishna",
-        "age": 30,
-        "city": "Bengaluru"
-    }
+# using rocket sign (=>)
+associative_array = {
+    "name" => "krishna",
+    "age" => 30,
+    "city" => "Bengaluru"
+}
 
-    # Accessing values using keys as symbol
-    puts associative_array[:name]
-    puts associative_array[:city]
-    puts associative_array[:age]
+# Accessing values using keys as string
+puts associative_array["name"]
+puts associative_array["city"]
+puts associative_array["age"]
 
-    # Add new key-value pair
-    associative_array[:address] = "Whitefield"
-    puts associative_array
+# using (:) semicolon
+associative_array = {
+    "name": "krishna",
+    "age": 30,
+    "city": "Bengaluru"
+}
 
-    # Updating an existing value
-    associative_array[:age] = 31
+# Accessing values using keys as symbol
+puts associative_array[:name]
+puts associative_array[:city]
+puts associative_array[:age]
 
-    # Iterating through the associative array (hash)
-    associative_array.each do |key, value|
-        puts "#{key}: #{value}"
-    end
+# Add new key-value pair
+associative_array[:address] = "Whitefield"
+puts associative_array
+
+# Updating an existing value
+associative_array[:age] = 31
+
+# Iterating through the associative array (hash)
+associative_array.each do |key, value|
+    puts "#{key}: #{value}"
+end
 
 ```
