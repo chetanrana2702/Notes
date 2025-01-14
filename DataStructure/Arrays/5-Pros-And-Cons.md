@@ -2,7 +2,7 @@
 
 - Arrays has some pros and cons, which make them well suited for some applications over others
 
-### <b style="color:darkorange">Advantages</b>
+### <b style="color:darkorange">Pros</b>
 1. <b style="color:blue">Efficient Element Access:</b>
 
     - Arrays allow random access to elements using their index. 
@@ -29,10 +29,11 @@
     - Arrays are supported in nearly all programming languages, often with optimized implementations.
 
 
-### <b style="color:darkorange">Disadvantages</b>
+### <b style="color:darkorange">Cons</b>
 1. <b style="color:blue">Fixed Size:</b>
 
-    - In languages like C and Java, the size of an array is fixed at the time of creation and cannot be dynamically resized. This may lead to wasted memory (if over-allocated) or lack of space (if under-allocated).
+    - In languages like C and Java, the size of an array is fixed at the time of creation and cannot be dynamically resized. 
+    - This may lead to wasted memory (if over-allocated) or lack of space (if under-allocated).
 
 2. <b style="color:blue">Insertion and Deletion Costs:</b>
 
@@ -40,7 +41,8 @@
 
 3. <b style="color:blue">Homogeneous Data Limitation:</b>
 
-    - Arrays typically require all elements to be of the same data type. If you need to store mixed data types, arrays may not be ideal.
+    - Arrays typically require all elements to be of the same data type. 
+    - If you need to store mixed data types, arrays may not be ideal.
 4. <b style="color:blue">Wasted Memory in Sparse Data:</b>
 
     - Arrays are not efficient for sparse data structures (e.g., when many elements are unused or null).
