@@ -47,3 +47,5 @@ puts "Value at index #{index}: #{value}"
 # Value at index 2: 3
 ```
 
+### <b style="color:darkorange">Real-World Applications</b>
+- <b style="color:blue">Sparse Arrays:</b> Used in graph representations (e.g., adjacency matrices), machine learning (e.g., one-hot encoding), or any domain with sparse data structures.

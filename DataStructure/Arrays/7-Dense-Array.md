@@ -20,3 +20,5 @@
 - Memory inefficient for large arrays with many default values.
 - Can result in wastage of storage space.
 
+### <b style="color:darkorange">Real-World Applications</b>
+- <b style="color:blue">Dense Arrays:</b> Used in image processing, numerical computations, or any field where data is densely populated.
