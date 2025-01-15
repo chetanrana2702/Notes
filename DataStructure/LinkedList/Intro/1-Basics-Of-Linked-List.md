@@ -51,3 +51,13 @@ A <b style="color:red">linked list</b> is a linear data structure in which eleme
 4.  <b style="color:blue">Search:</b> Finding a node with a specific value.
     
 5.  <b style="color:blue">Update:</b> Modifying the value of an existing node.
+
+
+### <b style="color:darkorange">Time Complexity</b>
+- <b style="color:blue">Traversal:</b> Scan through nodes — O(n).
+- <b style="color:blue">Insertion at the Beginning:</b> Add a node at the start — O(1).
+- <b style="color:blue">Insertion (other cases)/Deletion:</b> Add or remove nodes elsewhere in the list — O(n).
+- <b style="color:blue">Search:</b> Locate specific nodes — O(n).
+- <b style="color:blue">Sorting:</b> Order or organize nodes in the list. Commonly-used algorithms for linked lists like merge sort have a time complexity of O(n logn).
+- <b style="color:blue">Merging:</b> Combine two lists — O(n) where n is the total number of nodes in both lists.
+- <b style="color:blue">Reversal:</b> Flip node order — O(n).
