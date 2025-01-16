@@ -77,7 +77,7 @@ Linked lists are commonly utilized in real-world applications due to their benef
         - Hash tables (for handling collisions through chaining).
 
 3. <b style="color:blue">Undo Functionality in Applications</b>
-    - Many software applications (e.g., text editors) use linked lists to implement undo/redo functionality.
+    - Many software applications (e.g. text editors) use linked lists to implement undo/redo functionality.
     - Each change is stored as a node in the list, allowing traversal to previous or next states.
 
 4. <b style="color:blue">Graph Representation</b>
@@ -94,7 +94,7 @@ Linked lists are commonly utilized in real-world applications due to their benef
 
 8. <b style="color:blue">Operating System Kernels</b>
     - Linked lists are extensively used in operating systems for:
-        - Process scheduling (e.g., round-robin schedulers).
+        - Process scheduling (e.g. round-robin schedulers).
         - File allocation tables.
         - Management of I/O buffers.
 
