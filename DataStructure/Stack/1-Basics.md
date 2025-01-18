@@ -1,9 +1,11 @@
-### <b style="color:blue">Comparison To Dynamic Array</b>
+### <b style="color:blue">Stack Basics</b>
 
 A **Stack** is a **linear data structure** that follows the **Last In, First Out (LIFO)** principle. This means the last element added (pushed) to the stack is the first one to be removed (popped). It is like a stack of plates where you can only add or remove the top plate.
 
-#### <b style="color:blue">Characteristics of a Stack:</b>
+### <b style="color:blue">Characteristics of a Stack:</b>
+
 1. <b style="color:deeppink">LIFO Order:</b> The last element inserted is the first to be removed.
+
 2. <b style="color:deeppink">Operations:</b>
     - <b style="color:blue">Push:</b> Add an element to the top of the stack.
     - <b style="color:blue">Pop:</b> Remove the top element of the stack.
@@ -13,20 +15,27 @@ A **Stack** is a **linear data structure** that follows the **Last In, First Out
 
 
 #### <b style="color:blue">Representation:</b>
+
 - Stacks can be implemented using:
     - <b style="color:deeppink">Arrays:</b> Fixed-size stack, efficient for accessing elements by index.
     - <b style="color:deeppink">Linked Lists:</b> Dynamic-size stack, grows and shrinks as needed.
 
 
-#### <b style="color:blue">Applications of Stacks:</b>
+### <b style="color:blue">Applications of Stacks:</b>
+
 1. <b style="color:deeppink">Expression Evaluation:</b>Converting and evaluating infix, postfix, and prefix expressions.
+
 2. <b style="color:deeppink">Backtracking:</b> E.g., navigating backward in browsers or solving puzzles like mazes.
+
 3. <b style="color:deeppink">Function Call Management:</b> The call stack maintains function calls in programming.
+
 4. <b style="color:deeppink">Undo/Redo Operations:</b> Used in text editors or applications.
+
 5. <b style="color:deeppink">Parenthesis Matching:</b> Checking balanced parentheses in expressions.
+
 6. <b style="color:deeppink">Reversing Data:</b> Strings, numbers, or other sequences.
 
-#### <b style="color:blue">Example of a Stack:</b>
+### <b style="color:blue">Example of a Stack:</b>
 <b style="color:deeppink">Pushing elements:</b>
 - Initially: Empty stack [].
 - Push 10: Stack becomes [10].
@@ -44,7 +53,7 @@ Here’s the time complexity of operations on a stack:
     - Time Complexity: O(1)
     
     - Explanation: Adding an element to the top of the stack involves simply placing the element at the next available position. No traversal is needed.
-    
+
 2. <b style="color:blue">Accessing an Element (Peek or Top)</b>
     - Time Complexity: O(1)
     

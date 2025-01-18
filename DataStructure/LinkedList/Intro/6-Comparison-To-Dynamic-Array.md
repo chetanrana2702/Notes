@@ -25,7 +25,7 @@ Imagine you're implementing a task scheduler where tasks are dynamically added, 
     * While each node in a linked list uses extra memory for pointers, it avoids the potential overallocation of memory (common in dynamic arrays during resizing).
         
 
-#### <b style="color:blue">Why a Dynamic Array is Less Suitable:</b>
+### <b style="color:blue">Why a Dynamic Array is Less Suitable:</b>
 
 * Inserting or deleting elements in the middle of a dynamic array requires shifting elements, resulting in O(n) time complexity.
     
