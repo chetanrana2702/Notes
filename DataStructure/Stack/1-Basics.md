@@ -2,7 +2,7 @@
 
 A **Stack** is a **linear data structure** that follows the **Last In, First Out (LIFO)** principle. This means the last element added (pushed) to the stack is the first one to be removed (popped). It is like a stack of plates where you can only add or remove the top plate.
 
-### <b style="color:blue">Characteristics of a Stack:</b>
+### <b style="color:darkorange">Characteristics of a Stack:</b>
 
 1. <b style="color:deeppink">LIFO Order:</b> The last element inserted is the first to be removed.
 
@@ -14,14 +14,14 @@ A **Stack** is a **linear data structure** that follows the **Last In, First Out
     - <b style="color:blue">Size:</b> Determine the number of elements in the stack.
 
 
-#### <b style="color:blue">Representation:</b>
+### <b style="color:darkorange">Representation:</b>
 
 - Stacks can be implemented using:
     - <b style="color:deeppink">Arrays:</b> Fixed-size stack, efficient for accessing elements by index.
     - <b style="color:deeppink">Linked Lists:</b> Dynamic-size stack, grows and shrinks as needed.
 
 
-### <b style="color:blue">Applications of Stacks:</b>
+### <b style="color:darkorange">Applications of Stacks:</b>
 
 1. <b style="color:deeppink">Expression Evaluation:</b>Converting and evaluating infix, postfix, and prefix expressions.
 
@@ -35,7 +35,7 @@ A **Stack** is a **linear data structure** that follows the **Last In, First Out
 
 6. <b style="color:deeppink">Reversing Data:</b> Strings, numbers, or other sequences.
 
-### <b style="color:blue">Example of a Stack:</b>
+### <b style="color:darkorange">Example of a Stack:</b>
 <b style="color:deeppink">Pushing elements:</b>
 - Initially: Empty stack [].
 - Push 10: Stack becomes [10].
