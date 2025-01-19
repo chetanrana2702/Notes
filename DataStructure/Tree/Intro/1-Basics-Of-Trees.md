@@ -1,11 +1,11 @@
-The Tree Data Structure is a widely used hierarchical data structure in computer science, representing relationships between data elements in a parent-child manner.
+## Tree Data Structure
 
----
 
 ### Definition
-A tree is a non-linear data structure consisting of nodes connected by edges. It is often used to represent hierarchical relationships, such as filesystems, organizational charts, or parsing expressions.
+- A tree is a non-linear data structure consisting of nodes connected by edges. 
+- It is often used to represent hierarchical relationships, such as filesystems, organizational charts, or parsing expressions.
 
----
+
 
 ### Basic Terminology
 1. <b>Node:</b> A fundamental part of a tree that contains data and possibly references to other nodes.
@@ -35,7 +35,7 @@ A tree is a non-linear data structure consisting of nodes connected by edges. It
 
 8. <b>Forest:</b> A collection of disjoint trees.
 
----
+
 
 ### Types of Trees
 
@@ -92,7 +92,7 @@ A tree is a non-linear data structure consisting of nodes connected by edges. It
 
     - Used for efficient computation of prefix sums.
 
----
+
 
 ### Traversal Techniques
 Traversal involves visiting all nodes of a tree in a specific order:
@@ -106,7 +106,6 @@ Traversal involves visiting all nodes of a tree in a specific order:
 #### 2. Breadth-First Search (BFS)
 - <b>Level-order traversal:</b> Visit nodes level by level.
 
----
 
 ### Operations on Trees
 
@@ -118,7 +117,6 @@ Traversal involves visiting all nodes of a tree in a specific order:
 6. <b>Lowest Common Ancestor (LCA):</b> Find the lowest common ancestor of two nodes.
 7. <b>Path Finding:</b> Identify the path between two nodes.
 
----
 
 ### Applications of Trees
 
@@ -137,7 +135,6 @@ Traversal involves visiting all nodes of a tree in a specific order:
 7. #### Compiler Design:
     - Abstract syntax trees (ASTs).
 
----
 
 ### Advantages
 
@@ -145,7 +142,7 @@ Traversal involves visiting all nodes of a tree in a specific order:
 2. Efficient search, insert, and delete operations in balanced trees (e.g., O(log n) for AVL trees).
 3. Supports operations like range queries (Segment Trees).
 
----
+
 
 ### Disadvantages
 
