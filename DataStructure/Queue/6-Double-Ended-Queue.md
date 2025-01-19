@@ -149,3 +149,107 @@ print("Is empty?", len(dq) == 0)
     
 
 By offering efficient two-ended operations, deques are a versatile and powerful data structure suitable for many real-world scenarios.
+
+
+## Some Common Problem Categories
+
+### **1\. Sliding Window Problems**
+
+Deques are highly efficient for maintaining the state of a sliding window. They allow us to process elements in constant time by adding and removing elements from the ends.
+
+*   **Problem 1: Sliding Window Maximum**
+    
+    - **Description**: Find the maximum value in each sliding window of size k.
+    - **Approach**: Use a deque to store indices of elements in the current window in decreasing order of their values. Remove indices that fall out of the window or whose corresponding values are less than the current element.
+    
+*   **Problem 2: Minimum Window Subsequence**
+    
+    - **Description**: Find the smallest window in a string S containing a subsequence T.
+    
+
+### **2\. BFS/DFS on Grids or Graphs**
+
+Deque is often used to optimize BFS implementations.
+
+*   **Problem 3: Shortest Path in Binary Matrix**
+    
+    - **Description**: Find the shortest path in a binary matrix from the top-left to the bottom-right corner.
+    - **Approach**: Use a deque for BFS traversal to explore neighboring cells efficiently.
+    
+*   **Problem 4: Rotting Oranges**
+    
+    - **Description**: Determine the minimum time to rot all oranges in a grid.
+    - **Approach**: Use a deque to simulate the spreading of rot layer by layer (multi-source BFS).
+    
+
+### **3\. Monotonic Queue Problems**
+
+Monotonic deques are used to maintain elements in sorted order to efficiently find minimums or maximums.
+
+*   **Problem 5: Jump Game VI**
+    
+    - **Description**: Given an array, find the maximum score you can achieve by jumping between indices with constraints.
+    - **Approach**: Use a deque to store potential scores in decreasing order, ensuring efficient retrieval of the maximum score within a sliding window.
+    
+*   **Problem 6: Longest Subarray of 1's After Deleting One Element**
+    
+    - **Description**: Find the longest subarray containing only 1s after deleting at most one element.  
+    - **Approach**: Use a deque to maintain the indices of zeros in the current valid subarray.
+    
+
+### **4\. Two Pointers / Sliding Window Techniques**
+
+Deques help manage ranges efficiently when processing substrings or subarrays.
+
+*   **Problem 7: Maximum Number of Events That Can Be Attended**
+    
+    - **Description**: Attend the maximum number of non-overlapping events.
+    - **Approach**: Use a deque to track events ending soonest while iterating over sorted start times.
+    
+*   **Problem 8: Shortest Subarray with Sum at Least K**
+    
+    - **Description**: Find the shortest subarray with a sum of at least k.
+    - **Approach**: Use a deque to maintain a sliding window with a sum greater than or equal to k.
+    
+
+### **5\. Design Problems**
+
+Deque is a natural fit for problems requiring custom data structures.
+
+*   **Problem 9: Design Circular Deque**
+    
+    - **Description**: Implement a circular deque with efficient operations on both ends.
+    - **Approach**: Directly implement deque operations like insertFront, insertLast, deleteFront, and deleteLast.
+    
+*   **Problem 10: Design Front Middle Back Queue**
+    
+    - **Description**: Design a queue that supports operations to add or remove elements from the front, back, or middle.
+    - **Approach**: Use a deque to manage elements efficiently.
+    
+
+### **6\. String or Parentheses Manipulation**
+
+Deques are used for balancing or tracking characters.
+
+*   **Problem 11: Minimum Add to Make Parentheses Valid**
+    
+    - **Description**: Find the minimum number of parentheses additions to make a string valid.
+    - **Approach**: Use a deque to simulate stack-like behavior.
+    
+*   **Problem 12: Check If a String Is Transformable With Substring Sort Operations**
+
+    - **Description**: Check if one string can be transformed into another using substring sorting.
+    - **Approach**: Use a deque to track indices of characters.
+    
+
+### **7\. Others**
+
+*   **Problem 13: Maximum Number of Points with Cost**
+
+    - **Description**: Compute the maximum number of points with given constraints.
+    - **Approach**: Use a deque to optimize the transition between rows.
+    
+*   **Problem 14: Sum of Subarray Minimums**
+
+    - **Description**: Calculate the sum of minimums of all subarrays.
+    - **Approach**: Use a monotonic deque to find the contribution of each element.

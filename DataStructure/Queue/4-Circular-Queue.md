@@ -425,3 +425,77 @@ cq.display
 
 ```
 Both implementations in Python and Ruby showcase the array-based and linked-list-based circular queues.
+
+
+
+A circular queue (or circular buffer) is a data structure that uses a fixed-size buffer and operates in a circular way. It is commonly implemented using an array and two pointers (front and rear) to manage the start and end of the queue.
+
+### 1\. **Design Circular Queue**
+
+*   **Problem:**  Design Circular Queue
+    
+*   **Description:** Design a circular queue with fixed capacity, implementing the following operations:
+    
+    *   enQueue(value): Add an item at the rear of the queue.
+        
+    *   deQueue(): Remove an item from the front of the queue.
+        
+    *   Front(): Get the front item.
+        
+    *   Rear(): Get the last item.
+        
+    *   isEmpty(): Check if the queue is empty.
+        
+    *   isFull(): Check if the queue is full.
+        
+*   **Approach:** Use an array with two pointers (front, rear) and a counter to keep track of the number of elements.
+    
+
+### 2\. **Number of Recent Calls**
+
+*   **Problem:**  Number of Recent Calls
+    
+*   **Description:** Implement a class RecentCounter that counts the number of requests in the last 3000 milliseconds. Operations:
+    
+    *   ping(t): Add a new request at time t and return the number of requests in the range \[t-3000, t\].
+        
+*   **Approach:** Use a circular queue to keep track of recent requests and remove requests outside the 3000ms range.
+    
+
+### 3\. **Moving Average from Data Stream**
+
+*   **Problem:**  Moving Average from Data Stream
+    
+*   **Description:** Implement a class MovingAverage that calculates the moving average of the last size values in a stream of numbers.
+    
+*   **Approach:** Use a circular queue to store the last size numbers. Maintain the sum of elements in the queue for quick computation.
+    
+
+### 4\. **Sliding Window Maximum**
+
+*   **Problem:**  Sliding Window Maximum
+    
+*   **Description:** Given an array nums and an integer k, return the maximum values of each sliding window of size k.
+    
+*   **Approach:** Use a deque (double-ended queue), which operates like a circular queue, to keep track of the indices of potential maximums in the current window.
+    
+
+### 5\. **Design Hit Counter**
+
+*   **Problem:**  Design Hit Counter (Premium Problem)
+    
+*   **Description:** Design a hit counter that tracks hits received in the past 5 minutes (300 seconds).
+    
+*   **Approach:** Use a circular queue to store timestamps of the hits, removing timestamps older than 300 seconds as new hits are added.
+    
+
+### 6\. **Shortest Path in a Grid with Obstacles Elimination**
+
+*   **Problem:**  Shortest Path in a Grid with Obstacles Elimination
+    
+*   **Description:** Find the shortest path in a grid from the top-left to the bottom-right, where some cells contain obstacles that can be eliminated up to k times.
+    
+*   **Approach:** Use a circular queue for Breadth-First Search (BFS) to manage the current position and the number of eliminations left.
+    
+
+Circular queues are efficient for managing fixed-size sliding windows or FIFO structures with wrapping behavior.
