@@ -58,3 +58,35 @@ Balanced binary trees are widely used in:
 - **File systems**
 - **Memory management**
 - **Efficient searching and sorting algorithms**
+
+
+A **Balanced Binary Tree** (BBT) ensures that the time complexity of common operations such as insert, delete, and search is O(log⁡n).
+
+In contrast, an **Unbalanced Binary Tree** (UBT) can degrade these operations to O(n) in the worst case.
+
+## Balanced Binary Tree (BBT)
+
+A Balanced Binary Tree is defined by the property that every node’s left and right subtrees have heights that differ by at most 1:
+
+```
+| height(left) - height(right) | <= 1
+```
+
+### Maximum Nodes
+
+The maximum number of nodes for a tree of height \( h \) is given by:
+
+```
+[2^h - 1]
+```
+This indicates that a BBT’s height and node count are directly related.
+
+
+
+### Unbalanced Binary Tree (UBT)
+
+An Unbalanced Binary Tree does not have specific criteria defining balance. 
+
+### Node Count
+
+It can have as few as \( h + 1 \) nodes or as many as \( 2^h - 1 \) nodes for a specific height \( h \).
