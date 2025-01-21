@@ -1,7 +1,9 @@
 ## B-Tree
 
-- A **B-tree** is a self-balancing search tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations. 
+- A **B-tree** is a self-balancing search tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations especially in disk-based systems. 
 - It is widely used in databases and file systems due to its ability to handle large amounts of data while maintaining good performance.
+- Also known as Multi-way Search Tree.
+
 
 Here is a comprehensive explanation of the B-tree:
 
