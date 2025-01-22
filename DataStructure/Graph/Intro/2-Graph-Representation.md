@@ -187,4 +187,6 @@ The choice of representation depends on the characteristics of the graph and the
 
 #### 6. **Conclusion**
 
-Understanding the different ways to represent a graph is crucial for implementing graph algorithms and solving problems effectively. Each representation has its strengths and is suited for different types of graphs and operations. By choosing the right representation for a given task, you can optimize both time and space efficiency.
+- Understanding the different ways to represent a graph is crucial for implementing graph algorithms and solving problems effectively. 
+- Each representation has its strengths and is suited for different types of graphs and operations. 
+- By choosing the right representation for a given task, you can optimize both time and space efficiency.
