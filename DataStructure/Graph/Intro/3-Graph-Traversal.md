@@ -55,7 +55,7 @@ DFS (Depth-First Search) and BFS (Breadth-First Search) are two common graph tra
 3.  **Memory usage**: DFS may require less memory if the tree/graph is deep, while BFS may require more memory if the tree/graph is wide because it stores all nodes at the current level.
     
 
-In summary:
+### In summary:
 
 *   **DFS**: Deep dive, stack-based, backtracks.
     
