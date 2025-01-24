@@ -63,4 +63,6 @@ Let's consider a complete graph with 4 vertices, denoted as ( K_4 ). The vertice
 
 ### Conclusion
 
-In summary, a complete graph is a graph in which every pair of distinct vertices is connected by a unique edge. The complete graph ( K_n ) has ( n ) vertices and ( n(n-1)/2 ) edges, making it a highly connected structure. Understanding complete graphs is essential in various fields, including computer science, network theory, and combinatorial optimization.
+- In summary, a complete graph is a graph in which every pair of distinct vertices is connected by a unique edge. 
+- The complete graph ( K_n ) has ( n ) vertices and ( n(n-1)/2 ) edges, making it a highly connected structure. 
+- Understanding complete graphs is essential in various fields, including computer science, network theory, and combinatorial optimization.
